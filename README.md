@@ -1,4 +1,4 @@
-# I2C protocol implpementation in VHDL
+# I2C protocol implementation in VHDL
 
 Project developed for the "Electronic and Communication Systems" course at the University of Pisa.
 
