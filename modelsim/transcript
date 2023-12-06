@@ -1,0 +1,39 @@
+# Compile of I2C_writing_master.vhd was successful.
+# Compile of I2C_writing_master_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.i2c_writing_master_tb
+# vsim -gui work.i2c_writing_master_tb 
+# Start time: 14:00:32 on Apr 24,2023
+# Loading std.standard
+# Loading modelsim_lib.util(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.i2c_writing_master_tb(behavioral)
+# Loading work.i2c_writing_master(behavioral)
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:C:/mtitcl/vsim/qstructure.tc_:2478: ::QStructure::sort .main_pane.structure 0 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+view -new wave
+# -new not supported on PE
+add wave -position insertpoint  \
+sim:/i2c_writing_master_tb/scl_ext \
+sim:/i2c_writing_master_tb/sda_in_ext \
+sim:/i2c_writing_master_tb/sda_out_ext
+run -all
+# ** Note: init_signal_spy [C:/Users/Marco/Desktop/project/vhdl/tb/I2C_writing_master_tb.vhd] : Mirroring the value of '/I2C_writing_master_tb/DUT/bit_counter' onto '/bit_counter'.
+# ** Note: init_signal_spy [C:/Users/Marco/Desktop/project/vhdl/tb/I2C_writing_master_tb.vhd] : Mirroring the value of '/I2C_writing_master_tb/DUT/current_state_representation' onto '/current_state'.
+# Compile of I2C_writing_master.vhd was successful.
+# Compile of I2C_writing_master_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.i2c_writing_master_tb(behavioral)
+# Loading work.i2c_writing_master(behavioral)
+run -all
+# ** Note: init_signal_spy [C:/Users/Marco/Desktop/project/vhdl/tb/I2C_writing_master_tb.vhd] : Mirroring the value of '/I2C_writing_master_tb/DUT/bit_counter' onto '/bit_counter'.
+# ** Note: init_signal_spy [C:/Users/Marco/Desktop/project/vhdl/tb/I2C_writing_master_tb.vhd] : Mirroring the value of '/I2C_writing_master_tb/DUT/current_state_representation' onto '/current_state'.

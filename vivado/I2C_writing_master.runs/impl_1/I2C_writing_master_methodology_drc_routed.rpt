@@ -1,0 +1,100 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Apr 24 14:53:36 2023
+| Host         : DESKTOP-F3GIU1L running 64-bit major release  (build 9200)
+| Command      : report_methodology -file I2C_writing_master_methodology_drc_routed.rpt -pb I2C_writing_master_methodology_drc_routed.pb -rpx I2C_writing_master_methodology_drc_routed.rpx
+| Design       : I2C_writing_master
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: checkpoint_I2C_writing_master
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 12
++-----------+------------------+-------------------------------+------------+
+| Rule      | Severity         | Description                   | Violations |
++-----------+------------------+-------------------------------+------------+
+| TIMING-17 | Critical Warning | Non-clocked sequential cell   | 2          |
+| LUTAR-1   | Warning          | LUT drives async reset alert  | 1          |
+| TIMING-18 | Warning          | Missing input or output delay | 2          |
+| TIMING-20 | Warning          | Non-clocked latch             | 7          |
++-----------+------------------+-------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-17#1 Critical Warning
+Non-clocked sequential cell  
+The clock pin transmitting_reg_C/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Critical Warning
+Non-clocked sequential cell  
+The clock pin transmitting_reg_P/C is not reached by a timing clock
+Related violations: <none>
+
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell scl_internal_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) scl_enable_reg[0]/PRE, scl_enable_reg[1]/PRE, scl_enable_reg[2]/PRE,
+scl_enable_reg[3]/PRE, scl_enable_reg[4]/PRE, scl_enable_reg[5]/PRE
+scl_internal_reg/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on reset relative to clock(s) I2C_clock
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An output delay is missing on scl relative to clock(s) I2C_clock
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch scl_enable_reg[0] cannot be properly analyzed as its control pin scl_enable_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch scl_enable_reg[1] cannot be properly analyzed as its control pin scl_enable_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch scl_enable_reg[2] cannot be properly analyzed as its control pin scl_enable_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch scl_enable_reg[3] cannot be properly analyzed as its control pin scl_enable_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch scl_enable_reg[4] cannot be properly analyzed as its control pin scl_enable_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch scl_enable_reg[5] cannot be properly analyzed as its control pin scl_enable_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch transmitting_reg_LDC cannot be properly analyzed as its control pin transmitting_reg_LDC/G is not reached by a timing clock
+Related violations: <none>
+
+

@@ -1,0 +1,99 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Ei2c_writing_master
+Z0 w1682339876
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 162
+Z4 dC:/Users/Marco/Desktop/project/vhdl/modelsim
+Z5 8C:/Users/Marco/Desktop/project/vhdl/src/I2C_writing_master.vhd
+Z6 FC:/Users/Marco/Desktop/project/vhdl/src/I2C_writing_master.vhd
+l0
+L11 1
+VM?6czQb3VFOanbg@>nnQ91
+!s100 `K2iTRM1A4MPOAWHR?UMc1
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1682339942
+!i10b 1
+Z9 !s108 1682339942.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Marco/Desktop/project/vhdl/src/I2C_writing_master.vhd|
+Z11 !s107 C:/Users/Marco/Desktop/project/vhdl/src/I2C_writing_master.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+DEx4 work 18 i2c_writing_master 0 22 M?6czQb3VFOanbg@>nnQ91
+!i122 162
+l70
+L29 222
+Vi[4g46S8<n>YMHRhk3bHA2
+!s100 QWa_eFb5JkGnhF[W[;e4g0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ei2c_writing_master_tb
+Z14 w1681575914
+R1
+R2
+R3
+Z15 DPx12 modelsim_lib 4 util 0 22 I9VUm]?fD[2nYZzgoDM?l2
+!i122 163
+R4
+Z16 8C:/Users/Marco/Desktop/project/vhdl/tb/I2C_writing_master_tb.vhd
+Z17 FC:/Users/Marco/Desktop/project/vhdl/tb/I2C_writing_master_tb.vhd
+l0
+L13 1
+Vi0bMM4U7RYG=KVe8MWZGc0
+!s100 _36X8WT<@B2<STkibg8PQ1
+R7
+32
+Z18 !s110 1682339943
+!i10b 1
+R9
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Marco/Desktop/project/vhdl/tb/I2C_writing_master_tb.vhd|
+Z20 !s107 C:/Users/Marco/Desktop/project/vhdl/tb/I2C_writing_master_tb.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+R15
+Z21 DEx4 work 21 i2c_writing_master_tb 0 22 i0bMM4U7RYG=KVe8MWZGc0
+!i122 163
+l70
+Z22 L19 223
+Z23 VXff@CgBLITd^L`IFSlD@Q0
+Z24 !s100 KjmP5_YlnE;i2FFPYSRiS1
+R7
+32
+R18
+!i10b 1
+R9
+R19
+R20
+!i113 1
+R12
+R13

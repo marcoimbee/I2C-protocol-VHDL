@@ -1,0 +1,246 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Apr 24 14:49:32 2023
+# Process ID: 6260
+# Current directory: C:/Users/Marco/Desktop/project/vhdl/vivado/I2C_writing_master.runs/synth_1
+# Command line: vivado.exe -log I2C_writing_master.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source I2C_writing_master.tcl
+# Log file: C:/Users/Marco/Desktop/project/vhdl/vivado/I2C_writing_master.runs/synth_1/I2C_writing_master.vds
+# Journal file: C:/Users/Marco/Desktop/project/vhdl/vivado/I2C_writing_master.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source I2C_writing_master.tcl -notrace
+Command: synth_design -top I2C_writing_master -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2032
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 998.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'I2C_writing_master' [C:/Users/Marco/Desktop/project/vhdl/src/I2C_writing_master.vhd:29]
+WARNING: [Synth 8-614] signal 'scl_enable' is read in the process but is not in the sensitivity list [C:/Users/Marco/Desktop/project/vhdl/src/I2C_writing_master.vhd:75]
+WARNING: [Synth 8-614] signal 'current_state' is read in the process but is not in the sensitivity list [C:/Users/Marco/Desktop/project/vhdl/src/I2C_writing_master.vhd:121]
+WARNING: [Synth 8-614] signal 'repeating' is read in the process but is not in the sensitivity list [C:/Users/Marco/Desktop/project/vhdl/src/I2C_writing_master.vhd:121]
+WARNING: [Synth 8-614] signal 'valid_internal' is read in the process but is not in the sensitivity list [C:/Users/Marco/Desktop/project/vhdl/src/I2C_writing_master.vhd:121]
+WARNING: [Synth 8-614] signal 'addr' is read in the process but is not in the sensitivity list [C:/Users/Marco/Desktop/project/vhdl/src/I2C_writing_master.vhd:121]
+WARNING: [Synth 8-614] signal 'scl_enable' is read in the process but is not in the sensitivity list [C:/Users/Marco/Desktop/project/vhdl/src/I2C_writing_master.vhd:121]
+WARNING: [Synth 8-614] signal 'bit_counter' is read in the process but is not in the sensitivity list [C:/Users/Marco/Desktop/project/vhdl/src/I2C_writing_master.vhd:121]
+WARNING: [Synth 8-614] signal 'transmitted_seq' is read in the process but is not in the sensitivity list [C:/Users/Marco/Desktop/project/vhdl/src/I2C_writing_master.vhd:121]
+WARNING: [Synth 8-614] signal 'sda_in_internal' is read in the process but is not in the sensitivity list [C:/Users/Marco/Desktop/project/vhdl/src/I2C_writing_master.vhd:121]
+WARNING: [Synth 8-614] signal 'data' is read in the process but is not in the sensitivity list [C:/Users/Marco/Desktop/project/vhdl/src/I2C_writing_master.vhd:121]
+WARNING: [Synth 8-614] signal 'repeat_internal' is read in the process but is not in the sensitivity list [C:/Users/Marco/Desktop/project/vhdl/src/I2C_writing_master.vhd:121]
+WARNING: [Synth 8-614] signal 'scl_counter' is read in the process but is not in the sensitivity list [C:/Users/Marco/Desktop/project/vhdl/src/I2C_writing_master.vhd:121]
+WARNING: [Synth 8-614] signal 'stop_counter' is read in the process but is not in the sensitivity list [C:/Users/Marco/Desktop/project/vhdl/src/I2C_writing_master.vhd:121]
+WARNING: [Synth 8-614] signal 'byte' is read in the process but is not in the sensitivity list [C:/Users/Marco/Desktop/project/vhdl/src/I2C_writing_master.vhd:121]
+INFO: [Synth 8-256] done synthesizing module 'I2C_writing_master' (1#1) [C:/Users/Marco/Desktop/project/vhdl/src/I2C_writing_master.vhd:29]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 998.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 998.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 998.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 998.988 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Marco/Desktop/project/vhdl/vivado/I2C_writing_master.srcs/constrs_1/new/constraints_I2C.xdc]
+Finished Parsing XDC File [C:/Users/Marco/Desktop/project/vhdl/vivado/I2C_writing_master.srcs/constrs_1/new/constraints_I2C.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 998.988 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.057 . Memory (MB): peak = 998.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 998.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 998.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 998.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'scl_enable_reg' [C:/Users/Marco/Desktop/project/vhdl/src/I2C_writing_master.vhd:80]
+WARNING: [Synth 8-327] inferring latch for variable 'transmitted_seq_reg' [C:/Users/Marco/Desktop/project/vhdl/src/I2C_writing_master.vhd:128]
+WARNING: [Synth 8-327] inferring latch for variable 'byte_reg' [C:/Users/Marco/Desktop/project/vhdl/src/I2C_writing_master.vhd:129]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 998.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    6 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 4     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input    8 Bit        Muxes := 1     
+	   8 Input    8 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 9     
+	   4 Input    3 Bit        Muxes := 1     
+	   5 Input    3 Bit        Muxes := 1     
+	   3 Input    3 Bit        Muxes := 1     
+	   7 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 16    
+	   3 Input    1 Bit        Muxes := 2     
+	   8 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 998.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 998.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 998.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 998.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 998.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 998.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 998.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 998.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 998.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 998.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT2 |     2|
+|3     |LUT3 |     2|
+|4     |LUT4 |     3|
+|5     |LUT5 |     4|
+|6     |LUT6 |     5|
+|7     |FDCE |     1|
+|8     |FDPE |     7|
+|9     |LDC  |     1|
+|10    |LDP  |     6|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 998.988 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:37 . Memory (MB): peak = 998.988 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 998.988 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 998.988 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 998.988 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 7 instances were transformed.
+  LDC => LDCE: 1 instance 
+  LDP => LDPE: 6 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+16 Infos, 17 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:49 ; elapsed = 00:00:53 . Memory (MB): peak = 998.988 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Marco/Desktop/project/vhdl/vivado/I2C_writing_master.runs/synth_1/I2C_writing_master.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file I2C_writing_master_utilization_synth.rpt -pb I2C_writing_master_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 24 14:50:29 2023...

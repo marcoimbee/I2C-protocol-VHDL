@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Apr 24 14:49:32 2023
+# Process ID: 6260
+# Current directory: C:/Users/Marco/Desktop/project/vhdl/vivado/I2C_writing_master.runs/synth_1
+# Command line: vivado.exe -log I2C_writing_master.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source I2C_writing_master.tcl
+# Log file: C:/Users/Marco/Desktop/project/vhdl/vivado/I2C_writing_master.runs/synth_1/I2C_writing_master.vds
+# Journal file: C:/Users/Marco/Desktop/project/vhdl/vivado/I2C_writing_master.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source I2C_writing_master.tcl -notrace
