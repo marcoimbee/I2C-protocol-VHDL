@@ -10,3 +10,6 @@ Project developed for the "Electronic and Communication Systems" course at the U
 
 ## Language
 English
+
+## Notes
+The implementation only takes care of the <i>writing</i> part of the protocol.
